@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9CC03587-8B63-406C-92C3-01A5D9662BA6}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{9CC03587-8B63-406C-92C3-01A5D9662BA6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="BKG_Session" ID="{6DC5B1BD-A4D3-4693-A1DE-27D276B19C6A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="BKG_City_PLAY" ID="{D7289E09-172F-44B7-A3B1-A7A307924102}" WorkUnitID="{A1E2E154-4994-4DDF-901F-38B169FCB269}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="BKG_Desert_PLAY" ID="{06669DF4-A6D8-4C04-8793-2C1AA006B6D4}" WorkUnitID="{A1E2E154-4994-4DDF-901F-38B169FCB269}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Game" ID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
+						<CurrentSwitchRef Name="ExtraDiegetic" ID="{38284A8B-7F1F-4F33-8CFE-DC64BB0CE7FA}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="MUS_Session" ID="{32141D91-69F1-45D7-A944-9FF2712E24E4}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music_PLAY" ID="{DEBA4E61-417E-4D6D-9C42-E444D80417AB}" WorkUnitID="{A1E2E154-4994-4DDF-901F-38B169FCB269}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="BKG_City_PLAY" ID="{D7289E09-172F-44B7-A3B1-A7A307924102}" WorkUnitID="{A1E2E154-4994-4DDF-901F-38B169FCB269}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="BKG_Desert_PLAY" ID="{06669DF4-A6D8-4C04-8793-2C1AA006B6D4}" WorkUnitID="{A1E2E154-4994-4DDF-901F-38B169FCB269}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="BKG_City" ID="{57B1830A-2E62-4022-86AC-E082739098E8}" WorkUnitID="{449F4540-AA5F-4735-8C9B-E97FB5B0C975}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="BKG_Desert" ID="{430F9914-9246-43B6-B448-F8ACAC7179E6}" WorkUnitID="{449F4540-AA5F-4735-8C9B-E97FB5B0C975}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Game" ID="{5FE64A77-0309-4659-8B18-B6D4310ECC17}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_SFX" ID="{19003565-40DA-41CD-AFD0-D9697739D0FB}" WorkUnitID="{449F4540-AA5F-4735-8C9B-E97FB5B0C975}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DiegeticMusic" ID="{A19B63AD-FEDB-481B-B4F5-5A2D566ECBE5}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ExtraDiegeticMusic" ID="{068A3ABF-DCCA-4336-BACB-628F37DE6EF3}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MenuMusic" ID="{0AA01559-104E-4AF1-9B20-0038A20035DA}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_SideChain" ID="{6F25102A-0C7D-4E42-B027-1D1440D5E05D}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Game" ID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
+						<CurrentSwitchRef Name="Diegetic" ID="{419AB2E2-FF70-47CC-AC7A-6FBB6474969B}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

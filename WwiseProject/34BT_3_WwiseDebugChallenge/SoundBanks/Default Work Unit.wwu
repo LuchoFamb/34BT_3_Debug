@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1D1E45B2-F5E8-4AB2-990F-D88D0E4BBA28}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{1D1E45B2-F5E8-4AB2-990F-D88D0E4BBA28}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Music" ID="{481A80E8-1C2C-42D5-A973-EAFDF826D894}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_PLAY" ID="{DEBA4E61-417E-4D6D-9C42-E444D80417AB}" WorkUnitID="{A1E2E154-4994-4DDF-901F-38B169FCB269}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience" ID="{1210DA7F-C338-42BB-8D89-457668106853}">
+					<ObjectInclusionList>
+						<ObjectRef Name="BKG_City_PLAY" ID="{D7289E09-172F-44B7-A3B1-A7A307924102}" WorkUnitID="{A1E2E154-4994-4DDF-901F-38B169FCB269}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BKG_Desert_PLAY" ID="{06669DF4-A6D8-4C04-8793-2C1AA006B6D4}" WorkUnitID="{A1E2E154-4994-4DDF-901F-38B169FCB269}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

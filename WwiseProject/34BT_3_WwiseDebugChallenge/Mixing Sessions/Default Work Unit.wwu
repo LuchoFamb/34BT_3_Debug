@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C6321EC2-D009-486E-9E65-2FE89D01E731}" SchemaVersion="110">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{C6321EC2-D009-486E-9E65-2FE89D01E731}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Music_Containers" ID="{0CD3C3E8-B0F0-41E7-8DC5-7B5DAD8BF05B}">
+					<ObjectList>
+						<ObjectRef Name="Music" ID="{5FB62AB0-87BA-4EA7-95C5-7E7298F50688}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+						<ObjectRef Name="Game" ID="{5FE64A77-0309-4659-8B18-B6D4310ECC17}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+						<ObjectRef Name="DiegeticMusic" ID="{A19B63AD-FEDB-481B-B4F5-5A2D566ECBE5}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+						<ObjectRef Name="Wwise_DiegeticMusic_Test" ID="{2071EB39-3430-45EE-8BB2-F1F3FB8DF8A7}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+						<ObjectRef Name="ExtraDiegeticMusic" ID="{068A3ABF-DCCA-4336-BACB-628F37DE6EF3}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+						<ObjectRef Name="Wwise_ExtraDiegeticMusic_Test" ID="{E2581C1A-4AA7-438A-A18D-A0229C2B6D6B}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+						<ObjectRef Name="MenuMusic" ID="{0AA01559-104E-4AF1-9B20-0038A20035DA}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+						<ObjectRef Name="Wwise_MenuMusic_Test" ID="{8DA6E7D8-DD49-4DFE-829B-639785D1AE96}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

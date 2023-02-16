@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{6A242524-CD1A-8CBC-EE47-5D6623D08102}">
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<Media>
+				<File Id="788135086" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Bkg_Desert_Lp.wav</ShortName>
+					<Path>Media/788135086.wem</Path>
+					<CachePath>SFX/Bkg_Desert_Lp_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="961883484" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Bkg_City_Lp.wav</ShortName>
+					<Path>Media/961883484.wem</Path>
+					<CachePath>SFX/Bkg_City_Lp_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="283655200" Name="BKG_City_PLAY">
+					<MediaRefs>
+						<MediaRef Id="961883484"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3941906298" Name="BKG_Desert_PLAY">
+					<MediaRefs>
+						<MediaRef Id="788135086"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{947E3E41-08BB-B96B-FFFE-016F67D11DCD}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="85412153" Name="Ambience"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="392736999" Name="GameFlow">
+					<Switches>
+						<Switch Id="702482391" Name="Game"/>
+						<Switch Id="2607556080" Name="Menu"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2731022483" Name="GameMusic_Type">
+					<Switches>
+						<Switch Id="1316532907" Name="Diegetic"/>
+						<Switch Id="2795865631" Name="ExtraDiegetic"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9D16B693-0D5C-3B0B-7BC6-5C37863D1A57}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="919691640" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>WwiseTest3_Menu.wav</ShortName>
+					<Path>Media/919691640.wem</Path>
+					<CachePath>SFX/WwiseTest3_Menu_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="202194903" Name="Music_PLAY">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="392736999" Id="2607556080"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="2731022483" Id="0"/>
+									<MediaRefs>
+										<MediaRef Id="919691640"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391"/>
+							<Children/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="392736999" Name="GameFlow">
+					<Switches>
+						<Switch Id="702482391" Name="Game"/>
+						<Switch Id="2607556080" Name="Menu"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2731022483" Name="GameMusic_Type">
+					<Switches>
+						<Switch Id="1316532907" Name="Diegetic"/>
+						<Switch Id="2795865631" Name="ExtraDiegetic"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{796EECB9-C645-22DF-7E55-DFCC09D929E3}</FileHash>
+</SoundBanksInfo>

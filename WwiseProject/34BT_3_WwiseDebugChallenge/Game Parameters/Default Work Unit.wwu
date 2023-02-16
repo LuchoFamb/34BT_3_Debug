@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E31040C3-4C0C-45B9-B268-7E203C0801B2}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{E31040C3-4C0C-45B9-B268-7E203C0801B2}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_SideChain" ID="{6F25102A-0C7D-4E42-B027-1D1440D5E05D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-60"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-60"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

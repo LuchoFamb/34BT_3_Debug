@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	202194903	Music_PLAY			\Default Work Unit\MUS\Music_PLAY	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	392736999	GameFlow			\Default Work Unit\GameFlow	
+	2731022483	GameMusic_Type			\Default Work Unit\GameMusic_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	702482391	Game	GameFlow			
+	2607556080	Menu	GameFlow			
+	1316532907	Diegetic	GameMusic_Type			
+	2795865631	ExtraDiegetic	GameMusic_Type			
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	919691640	WwiseTest3_Menu	B:\02_34BigThings_AudioTest\03_Sesion Wwise\34BT_3_Wwise Debug Challenge\.cache\Windows\SFX\WwiseTest3_Menu_D79FB2B7.wem	919691640.wem	\Interactive Music Hierarchy\Default Work Unit\Music\MenuMusic\Wwise_MenuMusic_Test\WwiseTest3_Menu	
+

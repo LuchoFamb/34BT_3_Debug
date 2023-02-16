@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="34BT_TechnicalSoundDesignerTest" GUID="{541978D3-8ED5-4F8A-A78E-386D867A7BA4}" Generator="2022.1.0.8070"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{17951093-222D-48BD-B8AE-F26F928B6BF2}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{338925E3-4F36-4FE5-A1E2-73E53A992549}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{BC20133B-E4D1-97BB-4F25-6569FC4188E4}</FileHash>
+</ProjectInfo>

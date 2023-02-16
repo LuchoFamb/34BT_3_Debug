@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{449F4540-AA5F-4735-8C9B-E97FB5B0C975}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{449F4540-AA5F-4735-8C9B-E97FB5B0C975}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="BKG_City" ID="{57B1830A-2E62-4022-86AC-E082739098E8}" ShortID="986948838">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{38E5EB42-424D-48C3-9200-C4BE8A18B29F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{1CB30A42-533E-47F4-8B54-27998E19D265}" WorkUnitID="{42AD756B-2397-4ED6-AC2D-E1BBC2534D51}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bkg_City_Lp" ID="{3A1A9E32-CACC-4C67-A120-DE5990FA1B3C}">
+							<Language>SFX</Language>
+							<AudioFile>Bkg_City_Lp.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="961883484"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Bkg_City_Lp" ID="{3A1A9E32-CACC-4C67-A120-DE5990FA1B3C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BKG_Desert" ID="{430F9914-9246-43B6-B448-F8ACAC7179E6}" ShortID="705157010">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{38E5EB42-424D-48C3-9200-C4BE8A18B29F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{1CB30A42-533E-47F4-8B54-27998E19D265}" WorkUnitID="{42AD756B-2397-4ED6-AC2D-E1BBC2534D51}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bkg_Desert_Lp" ID="{BDE2B55A-8926-421D-8EDC-28C4CF0A7793}">
+							<Language>SFX</Language>
+							<AudioFile>Bkg_Desert_Lp.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="788135086"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Bkg_Desert_Lp" ID="{BDE2B55A-8926-421D-8EDC-28C4CF0A7793}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="UI_SFX" ID="{19003565-40DA-41CD-AFD0-D9697739D0FB}" ShortID="1015444590">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{38E5EB42-424D-48C3-9200-C4BE8A18B29F}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+							<ObjectRef Name="WwiseMeter" ID="{5C1B9D17-2079-4E9F-8BCE-1B4F3ACC3EDF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{1CB30A42-533E-47F4-8B54-27998E19D265}" WorkUnitID="{42AD756B-2397-4ED6-AC2D-E1BBC2534D51}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UI_SFX" ID="{12DCBC41-073E-4B0F-A6E2-BFEFF8474800}">
+							<Language>SFX</Language>
+							<AudioFile>UI_SFX.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="621161757"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="UI_SFX" ID="{12DCBC41-073E-4B0F-A6E2-BFEFF8474800}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

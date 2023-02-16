@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{179B24CF-3DE0-42E8-A302-DBADE24F505C}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{179B24CF-3DE0-42E8-A302-DBADE24F505C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="GameFlow" ID="{FC793DD3-F0C0-477D-BAE0-7601FA7D6C70}">
+					<ChildrenList>
+						<Switch Name="Menu" ID="{E23CD848-D345-497C-A6B1-FD8C866C6970}"/>
+						<Switch Name="Game" ID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="GameMusic_Type" ID="{817295B2-EC1B-4D00-908D-D480DBF0C750}">
+					<ChildrenList>
+						<Switch Name="Diegetic" ID="{419AB2E2-FF70-47CC-AC7A-6FBB6474969B}"/>
+						<Switch Name="ExtraDiegetic" ID="{38284A8B-7F1F-4F33-8CFE-DC64BB0CE7FA}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

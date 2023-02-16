@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A1E2E154-4994-4DDF-901F-38B169FCB269}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A1E2E154-4994-4DDF-901F-38B169FCB269}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="BKG" ID="{4F5578AF-53C2-465C-B6C4-2AF4497E5231}" ShortID="1033814395">
+					<ChildrenList>
+						<Event Name="BKG_City_PLAY" ID="{D7289E09-172F-44B7-A3B1-A7A307924102}">
+							<ChildrenList>
+								<Action Name="" ID="{D025B486-2D74-4B47-BBD7-FC3F1C747F1A}" ShortID="995988470">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BKG_City" ID="{57B1830A-2E62-4022-86AC-E082739098E8}" WorkUnitID="{449F4540-AA5F-4735-8C9B-E97FB5B0C975}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BKG_Desert_PLAY" ID="{06669DF4-A6D8-4C04-8793-2C1AA006B6D4}">
+							<ChildrenList>
+								<Action Name="" ID="{DA4EC6D6-7C9C-4F38-8D02-66FF811A52F7}" ShortID="523115974">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BKG_Desert" ID="{430F9914-9246-43B6-B448-F8ACAC7179E6}" WorkUnitID="{449F4540-AA5F-4735-8C9B-E97FB5B0C975}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="MUS" ID="{A17778F1-BAF4-40D4-9D33-DD5088775200}" ShortID="199018408">
+					<ChildrenList>
+						<Event Name="Music_PLAY" ID="{DEBA4E61-417E-4D6D-9C42-E444D80417AB}">
+							<ChildrenList>
+								<Action Name="" ID="{765AD0E5-E158-48C6-BBF5-163E6CD93F33}" ShortID="1067679103">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music" ID="{5FB62AB0-87BA-4EA7-95C5-7E7298F50688}" WorkUnitID="{6D3C6E74-3C7B-4171-BEFE-EA1D98CC2E2A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

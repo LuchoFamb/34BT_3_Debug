@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	283655200	BKG_City_PLAY			\Default Work Unit\BKG\BKG_City_PLAY	
+	3941906298	BKG_Desert_PLAY			\Default Work Unit\BKG\BKG_Desert_PLAY	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	788135086	BKG_Desert	B:\02_34BigThings_AudioTest\03_Sesion Wwise\34BT_3_Wwise Debug Challenge\.cache\Windows\SFX\Bkg_Desert_Lp_D79FB2B7.wem	788135086.wem	\Actor-Mixer Hierarchy\Default Work Unit\BKG_Desert	
+	961883484	BKG_City	B:\02_34BigThings_AudioTest\03_Sesion Wwise\34BT_3_Wwise Debug Challenge\.cache\Windows\SFX\Bkg_City_Lp_D79FB2B7.wem	961883484.wem	\Actor-Mixer Hierarchy\Default Work Unit\BKG_City	
+
