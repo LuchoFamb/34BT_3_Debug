@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="110">
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Virtual Acoustics\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Triggers\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Switches\Default Work Unit.wwu" DateLow="1668679836" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\States\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1676505295" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\SoundBanks\Default Work Unit.wwu" DateLow="1676516006" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Queries\Factory Queries.wwu" DateLow="1668598600" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Queries\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Presets\Factory Spatial Audio.wwu" DateLow="1668598600" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Presets\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Modulators\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Mixing Sessions\Default Work Unit.wwu" DateLow="1676476690" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Metadata\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1676516731" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1676498463" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Game Parameters\Default Work Unit.wwu" DateLow="1676505295" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Events\Default Work Unit.wwu" DateLow="1676516006" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Effects\Factory Effects.wwu" DateLow="1676505295" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Effects\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1668598600" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Conversion Settings\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Control Surface Sessions\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Audio Devices\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Attenuations\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1676515590" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\34BT_TechnicalSoundDesignerTest.wproj" DateLow="1668679577" DateHigh="0"/>
+	<ValidationCacheItem File="B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\34BT_TechnicalSoundDesignerTest.lucia.wsettings" DateLow="1676516733" DateHigh="0"/>
 	<ValidationCacheItem File="B:\02_34BigThings_Test\Sesion Wwise\34BT_Wwise Debug Challenge\Virtual Acoustics\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
 	<ValidationCacheItem File="B:\02_34BigThings_Test\Sesion Wwise\34BT_Wwise Debug Challenge\Triggers\Default Work Unit.wwu" DateLow="1668679577" DateHigh="0"/>
 	<ValidationCacheItem File="B:\02_34BigThings_Test\Sesion Wwise\34BT_Wwise Debug Challenge\Switches\Default Work Unit.wwu" DateLow="1668679836" DateHigh="0"/>

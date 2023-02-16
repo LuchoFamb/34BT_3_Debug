@@ -37,10 +37,13 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{947E3E41-08BB-B96B-FFFE-016F67D11DCD}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5280DD89-56ED-E19F-A19F-3553BB156C96}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="3602377827" Name="WwiseMeter" LibName="Wwise Meter" LibId="8454147"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -48,9 +51,19 @@
 			</Plugins>
 			<Busses>
 				<Bus Id="85412153" Name="Ambience"/>
+				<Bus Id="1551306167" Name="UI">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3602377827"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="3336838409" Name="RTPC_SideChain"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="392736999" Name="GameFlow">
 					<Switches>
@@ -66,14 +79,41 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9D16B693-0D5C-3B0B-7BC6-5C37863D1A57}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{56BD7C50-D40F-B3A8-87C9-949460FD9DA7}">
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<Media>
+				<File Id="621161757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_SFX.wav</ShortName>
+					<CachePath>SFX/UI_SFX_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3563481019" Name="UI_SFX">
+					<MediaRefs>
+						<MediaRef Id="621161757"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{2E6489F5-9801-899F-83AC-17DBA148E906}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
+				<File Id="283136828" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Wwise_DiegeticMusic_Test.wav</ShortName>
+					<Path>Media/283136828.wem</Path>
+					<CachePath>SFX/Wwise_DiegeticMusic_Test_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="919691640" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>WwiseTest3_Menu.wav</ShortName>
 					<Path>Media/919691640.wem</Path>
 					<CachePath>SFX/WwiseTest3_Menu_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1048233773" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Wwise_ExtraDiegeticMusic_Test.wav</ShortName>
+					<Path>Media/1048233773.wem</Path>
+					<CachePath>SFX/Wwise_ExtraDiegeticMusic_Test_D79FB2B7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -94,6 +134,28 @@
 							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391"/>
 							<Children/>
 						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="2731022483" Id="1316532907"/>
+									<MediaRefs>
+										<MediaRef Id="283136828"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="2731022483" Id="2795865631"/>
+									<MediaRefs>
+										<MediaRef Id="1048233773"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 			</Events>
@@ -113,5 +175,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{796EECB9-C645-22DF-7E55-DFCC09D929E3}</FileHash>
+	<FileHash>{B0B5135D-5558-AC55-A921-B4016639A352}</FileHash>
 </SoundBanksInfo>

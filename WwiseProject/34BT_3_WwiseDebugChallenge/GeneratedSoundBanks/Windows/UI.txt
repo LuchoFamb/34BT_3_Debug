@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3563481019	UI_SFX			\Default Work Unit\UI\UI_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	621161757	UI_SFX	B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\.cache\Windows\SFX\UI_SFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_SFX		554976
+

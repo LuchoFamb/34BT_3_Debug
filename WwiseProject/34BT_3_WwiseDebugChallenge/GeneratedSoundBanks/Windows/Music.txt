@@ -12,5 +12,7 @@ Switch	ID	Name	Switch Group			Notes
 	2795865631	ExtraDiegetic	GameMusic_Type			
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	919691640	WwiseTest3_Menu	B:\02_34BigThings_AudioTest\03_Sesion Wwise\34BT_3_Wwise Debug Challenge\.cache\Windows\SFX\WwiseTest3_Menu_D79FB2B7.wem	919691640.wem	\Interactive Music Hierarchy\Default Work Unit\Music\MenuMusic\Wwise_MenuMusic_Test\WwiseTest3_Menu	
+	283136828	Wwise_DiegeticMusic_Test	B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\.cache\Windows\SFX\Wwise_DiegeticMusic_Test_D79FB2B7.wem	283136828.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Game\DiegeticMusic\Wwise_DiegeticMusic_Test\Wwise_DiegeticMusic_Test	
+	919691640	WwiseTest3_Menu	B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\.cache\Windows\SFX\WwiseTest3_Menu_D79FB2B7.wem	919691640.wem	\Interactive Music Hierarchy\Default Work Unit\Music\MenuMusic\Wwise_MenuMusic_Test\WwiseTest3_Menu	
+	1048233773	Wwise_ExtraDiegeticMusic_Test	B:\GitHub\34BT_3_Debug\WwiseProject\34BT_3_WwiseDebugChallenge\.cache\Windows\SFX\Wwise_ExtraDiegeticMusic_Test_D79FB2B7.wem	1048233773.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Game\ExtraDiegeticMusic\Wwise_ExtraDiegeticMusic_Test\Wwise_ExtraDiegeticMusic_Test	
 

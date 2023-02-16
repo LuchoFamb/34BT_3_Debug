@@ -44,6 +44,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="UI" ID="{70EC4068-8210-49E9-8769-006D571B3843}" ShortID="285365501">
+					<ChildrenList>
+						<Event Name="UI_SFX" ID="{FDB49668-7B2C-4B95-B550-1A7F39E49D04}">
+							<ChildrenList>
+								<Action Name="" ID="{41006D91-5A99-46B1-A5B8-9C56CA1A46AA}" ShortID="940991963">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_SFX" ID="{19003565-40DA-41CD-AFD0-D9697739D0FB}" WorkUnitID="{449F4540-AA5F-4735-8C9B-E97FB5B0C975}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

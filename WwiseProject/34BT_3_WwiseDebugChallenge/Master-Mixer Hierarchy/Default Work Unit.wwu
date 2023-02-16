@@ -59,7 +59,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-20</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -72,6 +72,13 @@
 									</Reference>
 								</ObjectList>
 							</ObjectLists>
+						</Bus>
+						<Bus Name="UI" ID="{3E490FF7-6071-4AA6-AEF5-E5E0E0B7A4E1}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="WwiseMeter" ID="{5C1B9D17-2079-4E9F-8BCE-1B4F3ACC3EDF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
 						</Bus>
 					</ChildrenList>
 				</Bus>
