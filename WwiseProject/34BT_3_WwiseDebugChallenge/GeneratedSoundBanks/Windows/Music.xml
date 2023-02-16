@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="3991942870" Type="User" GUID="{481A80E8-1C2C-42D5-A973-EAFDF826D894}" Language="SFX" Hash="{2E6489F5-9801-899F-83AC-17DBA148E906}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="283136828" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Wwise_DiegeticMusic_Test.wav</ShortName>
+					<Path>Media/283136828.wem</Path>
+					<CachePath>SFX/Wwise_DiegeticMusic_Test_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="919691640" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>WwiseTest3_Menu.wav</ShortName>
+					<Path>Media/919691640.wem</Path>
+					<CachePath>SFX/WwiseTest3_Menu_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1048233773" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Wwise_ExtraDiegeticMusic_Test.wav</ShortName>
+					<Path>Media/1048233773.wem</Path>
+					<CachePath>SFX/Wwise_ExtraDiegeticMusic_Test_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="202194903" Name="Music_PLAY" ObjectPath="\Events\Default Work Unit\MUS\Music_PLAY" GUID="{DEBA4E61-417E-4D6D-9C42-E444D80417AB}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="392736999" Id="2607556080" GUID="{E23CD848-D345-497C-A6B1-FD8C866C6970}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="2731022483" Id="0" GUID="{817295B2-EC1B-4D00-908D-D480DBF0C750}"/>
+									<MediaRefs>
+										<MediaRef Id="919691640"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391" GUID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391" GUID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="2731022483" Id="1316532907" GUID="{419AB2E2-FF70-47CC-AC7A-6FBB6474969B}"/>
+									<MediaRefs>
+										<MediaRef Id="283136828"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391" GUID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="2731022483" Id="2795865631" GUID="{38284A8B-7F1F-4F33-8CFE-DC64BB0CE7FA}"/>
+									<MediaRefs>
+										<MediaRef Id="1048233773"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="392736999" Name="GameFlow" ObjectPath="\Switches\Default Work Unit\GameFlow" GUID="{FC793DD3-F0C0-477D-BAE0-7601FA7D6C70}">
+					<Switches>
+						<Switch Id="702482391" Name="Game" ObjectPath="\Switches\Default Work Unit\GameFlow\Game" GUID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
+						<Switch Id="2607556080" Name="Menu" ObjectPath="\Switches\Default Work Unit\GameFlow\Menu" GUID="{E23CD848-D345-497C-A6B1-FD8C866C6970}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2731022483" Name="GameMusic_Type" ObjectPath="\Switches\Default Work Unit\GameMusic_Type" GUID="{817295B2-EC1B-4D00-908D-D480DBF0C750}">
+					<Switches>
+						<Switch Id="1316532907" Name="Diegetic" ObjectPath="\Switches\Default Work Unit\GameMusic_Type\Diegetic" GUID="{419AB2E2-FF70-47CC-AC7A-6FBB6474969B}"/>
+						<Switch Id="2795865631" Name="ExtraDiegetic" ObjectPath="\Switches\Default Work Unit\GameMusic_Type\ExtraDiegetic" GUID="{38284A8B-7F1F-4F33-8CFE-DC64BB0CE7FA}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E17F34D8-9830-891A-2DFA-DE94A5BCA971}</FileHash>
+</SoundBanksInfo>

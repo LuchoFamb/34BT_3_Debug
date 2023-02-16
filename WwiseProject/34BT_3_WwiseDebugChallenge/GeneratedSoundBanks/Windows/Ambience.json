@@ -1,0 +1,67 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "85412153",
+    "Type": "User",
+    "GUID": "{1210DA7F-C338-42BB-8D89-457668106853}",
+    "Language": "SFX",
+    "Hash": "{6A242524-CD1A-8CBC-EE47-5D6623D08102}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
+    "ShortName": "Ambience",
+    "Path": "Ambience.bnk",
+    "Media": [
+     {
+      "Id": "788135086",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Bkg_Desert_Lp.wav",
+      "Path": "Media/788135086.wem",
+      "CachePath": "SFX/Bkg_Desert_Lp_D79FB2B7.wem"
+     },
+     {
+      "Id": "961883484",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Bkg_City_Lp.wav",
+      "Path": "Media/961883484.wem",
+      "CachePath": "SFX/Bkg_City_Lp_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "283655200",
+      "Name": "BKG_City_PLAY",
+      "ObjectPath": "\\Events\\Default Work Unit\\BKG\\BKG_City_PLAY",
+      "GUID": "{D7289E09-172F-44B7-A3B1-A7A307924102}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "961883484"
+       }
+      ]
+     },
+     {
+      "Id": "3941906298",
+      "Name": "BKG_Desert_PLAY",
+      "ObjectPath": "\\Events\\Default Work Unit\\BKG\\BKG_Desert_PLAY",
+      "GUID": "{06669DF4-A6D8-4C04-8793-2C1AA006B6D4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "788135086"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0A9E9C05-6E09-B2FA-4AF9-2446067146F8}"
+ }
+}

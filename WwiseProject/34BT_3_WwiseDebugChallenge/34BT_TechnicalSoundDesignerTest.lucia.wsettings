@@ -164,9 +164,10 @@
 				<Property Name="SoundBank Manager\x64_Expand States Auto" Type="string" Value=""/>
 				<Property Name="SoundBank Manager\x64_Expand States User" Type="string" Value="skUeHej1skqZD9iNDku6KA=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankPathUserOverride" Type="bool" Value="True"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Windows">..\..\UEProyect\UE_3_Debug\Content\WwiseAudio\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">

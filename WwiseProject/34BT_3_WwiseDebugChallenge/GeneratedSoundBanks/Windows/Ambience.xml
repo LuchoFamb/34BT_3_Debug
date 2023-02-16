@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="85412153" Type="User" GUID="{1210DA7F-C338-42BB-8D89-457668106853}" Language="SFX" Hash="{6A242524-CD1A-8CBC-EE47-5D6623D08102}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<Media>
+				<File Id="788135086" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Bkg_Desert_Lp.wav</ShortName>
+					<Path>Media/788135086.wem</Path>
+					<CachePath>SFX/Bkg_Desert_Lp_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="961883484" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Bkg_City_Lp.wav</ShortName>
+					<Path>Media/961883484.wem</Path>
+					<CachePath>SFX/Bkg_City_Lp_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="283655200" Name="BKG_City_PLAY" ObjectPath="\Events\Default Work Unit\BKG\BKG_City_PLAY" GUID="{D7289E09-172F-44B7-A3B1-A7A307924102}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="961883484"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3941906298" Name="BKG_Desert_PLAY" ObjectPath="\Events\Default Work Unit\BKG\BKG_Desert_PLAY" GUID="{06669DF4-A6D8-4C04-8793-2C1AA006B6D4}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="788135086"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{AA3C686A-0C44-BCFD-5701-42120085BE67}</FileHash>
+</SoundBanksInfo>

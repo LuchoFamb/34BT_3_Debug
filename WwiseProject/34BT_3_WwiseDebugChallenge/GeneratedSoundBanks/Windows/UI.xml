@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="1551306167" Type="User" GUID="{01BCEF31-CD88-4480-9C5B-155CC8430A37}" Language="SFX" Hash="{56BD7C50-D40F-B3A8-87C9-949460FD9DA7}">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<Media>
+				<File Id="621161757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_SFX.wav</ShortName>
+					<CachePath>SFX/UI_SFX_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3563481019" Name="UI_SFX" ObjectPath="\Events\Default Work Unit\UI\UI_SFX" GUID="{FDB49668-7B2C-4B95-B550-1A7F39E49D04}" DurationType="OneShot" DurationMin="2.89" DurationMax="2.89">
+					<MediaRefs>
+						<MediaRef Id="621161757"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{541FE553-7473-F1E5-CE5D-6DCD55A73279}</FileHash>
+</SoundBanksInfo>

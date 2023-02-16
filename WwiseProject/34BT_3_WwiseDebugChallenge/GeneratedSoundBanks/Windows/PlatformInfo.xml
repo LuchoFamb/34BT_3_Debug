@@ -18,15 +18,15 @@
 		<GenerateHeaderFile>false</GenerateHeaderFile>
 		<GenerateContentTxtFile>true</GenerateContentTxtFile>
 		<GenerateMetadataXML>true</GenerateMetadataXML>
-		<GenerateMetadataJSON>false</GenerateMetadataJSON>
+		<GenerateMetadataJSON>true</GenerateMetadataJSON>
 		<GenerateAllBanksMetadata>true</GenerateAllBanksMetadata>
-		<GeneratePerBankMetadata>false</GeneratePerBankMetadata>
+		<GeneratePerBankMetadata>true</GeneratePerBankMetadata>
 		<UseSoundBankNames>true</UseSoundBankNames>
 		<AllowExceedingMaxSize>false</AllowExceedingMaxSize>
-		<MaxAttenuationInfo>false</MaxAttenuationInfo>
-		<EstimatedDurationInfo>false</EstimatedDurationInfo>
-		<PrintObjectGuid>false</PrintObjectGuid>
-		<PrintObjectPath>false</PrintObjectPath>
+		<MaxAttenuationInfo>true</MaxAttenuationInfo>
+		<EstimatedDurationInfo>true</EstimatedDurationInfo>
+		<PrintObjectGuid>true</PrintObjectGuid>
+		<PrintObjectPath>true</PrintObjectPath>
 	</Settings>
-	<FileHash>{A6637AF1-B932-231B-5638-1748A0D802B9}</FileHash>
+	<FileHash>{82B8E783-E365-ACB2-9D8F-EEDD67FD634B}</FileHash>
 </PlatformInfo>

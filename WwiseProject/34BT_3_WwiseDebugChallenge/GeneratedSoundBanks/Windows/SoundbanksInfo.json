@@ -1,0 +1,404 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache/Windows",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "85412153",
+    "Type": "User",
+    "GUID": "{1210DA7F-C338-42BB-8D89-457668106853}",
+    "Language": "SFX",
+    "Hash": "{6A242524-CD1A-8CBC-EE47-5D6623D08102}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
+    "ShortName": "Ambience",
+    "Path": "Ambience.bnk",
+    "Media": [
+     {
+      "Id": "788135086",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Bkg_Desert_Lp.wav",
+      "Path": "Media/788135086.wem",
+      "CachePath": "SFX/Bkg_Desert_Lp_D79FB2B7.wem"
+     },
+     {
+      "Id": "961883484",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Bkg_City_Lp.wav",
+      "Path": "Media/961883484.wem",
+      "CachePath": "SFX/Bkg_City_Lp_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "283655200",
+      "Name": "BKG_City_PLAY",
+      "ObjectPath": "\\Events\\Default Work Unit\\BKG\\BKG_City_PLAY",
+      "GUID": "{D7289E09-172F-44B7-A3B1-A7A307924102}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "961883484"
+       }
+      ]
+     },
+     {
+      "Id": "3941906298",
+      "Name": "BKG_Desert_PLAY",
+      "ObjectPath": "\\Events\\Default Work Unit\\BKG\\BKG_Desert_PLAY",
+      "GUID": "{06669DF4-A6D8-4C04-8793-2C1AA006B6D4}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "788135086"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{5280DD89-56ED-E19F-A19F-3553BB156C96}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3602377827",
+       "Name": "WwiseMeter",
+       "ObjectPath": "\\Effects\\Factory Effects\\WwiseMeter",
+       "GUID": "{5C1B9D17-2079-4E9F-8BCE-1B4F3ACC3EDF}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      }
+     ],
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{153C902C-5201-4176-B3B8-CF11D4681C02}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{BEF1B947-8015-44C8-8B77-ADC245D30C22}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "85412153",
+      "Name": "Ambience",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambience",
+      "GUID": "{1CB30A42-533E-47F4-8B54-27998E19D265}"
+     },
+     {
+      "Id": "1551306167",
+      "Name": "UI",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\UI",
+      "GUID": "{3E490FF7-6071-4AA6-AEF5-E5E0E0B7A4E1}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3602377827"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music",
+      "GUID": "{FE656700-9859-453F-A2CE-63648538AFBE}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3336838409",
+      "Name": "RTPC_SideChain",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_SideChain",
+      "GUID": "{6F25102A-0C7D-4E42-B027-1D1440D5E05D}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "392736999",
+      "Name": "GameFlow",
+      "ObjectPath": "\\Switches\\Default Work Unit\\GameFlow",
+      "GUID": "{FC793DD3-F0C0-477D-BAE0-7601FA7D6C70}",
+      "Switches": [
+       {
+        "Id": "702482391",
+        "Name": "Game",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GameFlow\\Game",
+        "GUID": "{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GameFlow\\Menu",
+        "GUID": "{E23CD848-D345-497C-A6B1-FD8C866C6970}"
+       }
+      ]
+     },
+     {
+      "Id": "2731022483",
+      "Name": "GameMusic_Type",
+      "ObjectPath": "\\Switches\\Default Work Unit\\GameMusic_Type",
+      "GUID": "{817295B2-EC1B-4D00-908D-D480DBF0C750}",
+      "Switches": [
+       {
+        "Id": "1316532907",
+        "Name": "Diegetic",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GameMusic_Type\\Diegetic",
+        "GUID": "{419AB2E2-FF70-47CC-AC7A-6FBB6474969B}"
+       },
+       {
+        "Id": "2795865631",
+        "Name": "ExtraDiegetic",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GameMusic_Type\\ExtraDiegetic",
+        "GUID": "{38284A8B-7F1F-4F33-8CFE-DC64BB0CE7FA}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1551306167",
+    "Type": "User",
+    "GUID": "{01BCEF31-CD88-4480-9C5B-155CC8430A37}",
+    "Language": "SFX",
+    "Hash": "{56BD7C50-D40F-B3A8-87C9-949460FD9DA7}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
+    "ShortName": "UI",
+    "Path": "UI.bnk",
+    "Media": [
+     {
+      "Id": "621161757",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_SFX.wav",
+      "CachePath": "SFX/UI_SFX_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3563481019",
+      "Name": "UI_SFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\UI_SFX",
+      "GUID": "{FDB49668-7B2C-4B95-B550-1A7F39E49D04}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.89",
+      "DurationMax": "2.89",
+      "MediaRefs": [
+       {
+        "Id": "621161757"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3991942870",
+    "Type": "User",
+    "GUID": "{481A80E8-1C2C-42D5-A973-EAFDF826D894}",
+    "Language": "SFX",
+    "Hash": "{2E6489F5-9801-899F-83AC-17DBA148E906}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk",
+    "Media": [
+     {
+      "Id": "283136828",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Wwise_DiegeticMusic_Test.wav",
+      "Path": "Media/283136828.wem",
+      "CachePath": "SFX/Wwise_DiegeticMusic_Test_D79FB2B7.wem"
+     },
+     {
+      "Id": "919691640",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "WwiseTest3_Menu.wav",
+      "Path": "Media/919691640.wem",
+      "CachePath": "SFX/WwiseTest3_Menu_D79FB2B7.wem"
+     },
+     {
+      "Id": "1048233773",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Wwise_ExtraDiegeticMusic_Test.wav",
+      "Path": "Media/1048233773.wem",
+      "CachePath": "SFX/Wwise_ExtraDiegeticMusic_Test_D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "202194903",
+      "Name": "Music_PLAY",
+      "ObjectPath": "\\Events\\Default Work Unit\\MUS\\Music_PLAY",
+      "GUID": "{DEBA4E61-417E-4D6D-9C42-E444D80417AB}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "392736999",
+         "Id": "2607556080",
+         "GUID": "{E23CD848-D345-497C-A6B1-FD8C866C6970}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "2731022483",
+           "Id": "0",
+           "GUID": "{817295B2-EC1B-4D00-908D-D480DBF0C750}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "919691640"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "392736999",
+         "Id": "702482391",
+         "GUID": "{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"
+        },
+        "Children": []
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "392736999",
+         "Id": "702482391",
+         "GUID": "{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "2731022483",
+           "Id": "1316532907",
+           "GUID": "{419AB2E2-FF70-47CC-AC7A-6FBB6474969B}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "283136828"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "392736999",
+         "Id": "702482391",
+         "GUID": "{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "2731022483",
+           "Id": "2795865631",
+           "GUID": "{38284A8B-7F1F-4F33-8CFE-DC64BB0CE7FA}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "1048233773"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "392736999",
+      "Name": "GameFlow",
+      "ObjectPath": "\\Switches\\Default Work Unit\\GameFlow",
+      "GUID": "{FC793DD3-F0C0-477D-BAE0-7601FA7D6C70}",
+      "Switches": [
+       {
+        "Id": "702482391",
+        "Name": "Game",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GameFlow\\Game",
+        "GUID": "{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GameFlow\\Menu",
+        "GUID": "{E23CD848-D345-497C-A6B1-FD8C866C6970}"
+       }
+      ]
+     },
+     {
+      "Id": "2731022483",
+      "Name": "GameMusic_Type",
+      "ObjectPath": "\\Switches\\Default Work Unit\\GameMusic_Type",
+      "GUID": "{817295B2-EC1B-4D00-908D-D480DBF0C750}",
+      "Switches": [
+       {
+        "Id": "1316532907",
+        "Name": "Diegetic",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GameMusic_Type\\Diegetic",
+        "GUID": "{419AB2E2-FF70-47CC-AC7A-6FBB6474969B}"
+       },
+       {
+        "Id": "2795865631",
+        "Name": "ExtraDiegetic",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GameMusic_Type\\ExtraDiegetic",
+        "GUID": "{38284A8B-7F1F-4F33-8CFE-DC64BB0CE7FA}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{658FE75F-BB67-8509-067E-C0C6A05FA609}"
+ }
+}

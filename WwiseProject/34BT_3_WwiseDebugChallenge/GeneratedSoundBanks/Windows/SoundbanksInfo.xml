@@ -9,7 +9,8 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{6A242524-CD1A-8CBC-EE47-5D6623D08102}">
+		<SoundBank Id="85412153" Type="User" GUID="{1210DA7F-C338-42BB-8D89-457668106853}" Language="SFX" Hash="{6A242524-CD1A-8CBC-EE47-5D6623D08102}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<Media>
@@ -25,61 +26,63 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="283655200" Name="BKG_City_PLAY">
+				<Event Id="283655200" Name="BKG_City_PLAY" ObjectPath="\Events\Default Work Unit\BKG\BKG_City_PLAY" GUID="{D7289E09-172F-44B7-A3B1-A7A307924102}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="961883484"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3941906298" Name="BKG_Desert_PLAY">
+				<Event Id="3941906298" Name="BKG_Desert_PLAY" ObjectPath="\Events\Default Work Unit\BKG\BKG_Desert_PLAY" GUID="{06669DF4-A6D8-4C04-8793-2C1AA006B6D4}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="788135086"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5280DD89-56ED-E19F-A19F-3553BB156C96}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{5280DD89-56ED-E19F-A19F-3553BB156C96}">
+			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="3602377827" Name="WwiseMeter" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="3602377827" Name="WwiseMeter" ObjectPath="\Effects\Factory Effects\WwiseMeter" GUID="{5C1B9D17-2079-4E9F-8BCE-1B4F3ACC3EDF}" LibName="Wwise Meter" LibId="8454147"/>
 				</ShareSets>
 				<AudioDevices>
-					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
-					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{153C902C-5201-4176-B3B8-CF11D4681C02}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{BEF1B947-8015-44C8-8B77-ADC245D30C22}" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="85412153" Name="Ambience"/>
-				<Bus Id="1551306167" Name="UI">
+				<Bus Id="85412153" Name="Ambience" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience" GUID="{1CB30A42-533E-47F4-8B54-27998E19D265}"/>
+				<Bus Id="1551306167" Name="UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI" GUID="{3E490FF7-6071-4AA6-AEF5-E5E0E0B7A4E1}">
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="3602377827"/>
 						</ShareSets>
 					</PluginRefs>
 				</Bus>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
-				<Bus Id="3991942870" Name="Music"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{FE656700-9859-453F-A2CE-63648538AFBE}"/>
 			</Busses>
 			<GameParameters>
-				<GameParameter Id="3336838409" Name="RTPC_SideChain"/>
+				<GameParameter Id="3336838409" Name="RTPC_SideChain" ObjectPath="\Game Parameters\Default Work Unit\RTPC_SideChain" GUID="{6F25102A-0C7D-4E42-B027-1D1440D5E05D}"/>
 			</GameParameters>
 			<SwitchGroups>
-				<SwitchGroup Id="392736999" Name="GameFlow">
+				<SwitchGroup Id="392736999" Name="GameFlow" ObjectPath="\Switches\Default Work Unit\GameFlow" GUID="{FC793DD3-F0C0-477D-BAE0-7601FA7D6C70}">
 					<Switches>
-						<Switch Id="702482391" Name="Game"/>
-						<Switch Id="2607556080" Name="Menu"/>
+						<Switch Id="702482391" Name="Game" ObjectPath="\Switches\Default Work Unit\GameFlow\Game" GUID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
+						<Switch Id="2607556080" Name="Menu" ObjectPath="\Switches\Default Work Unit\GameFlow\Menu" GUID="{E23CD848-D345-497C-A6B1-FD8C866C6970}"/>
 					</Switches>
 				</SwitchGroup>
-				<SwitchGroup Id="2731022483" Name="GameMusic_Type">
+				<SwitchGroup Id="2731022483" Name="GameMusic_Type" ObjectPath="\Switches\Default Work Unit\GameMusic_Type" GUID="{817295B2-EC1B-4D00-908D-D480DBF0C750}">
 					<Switches>
-						<Switch Id="1316532907" Name="Diegetic"/>
-						<Switch Id="2795865631" Name="ExtraDiegetic"/>
+						<Switch Id="1316532907" Name="Diegetic" ObjectPath="\Switches\Default Work Unit\GameMusic_Type\Diegetic" GUID="{419AB2E2-FF70-47CC-AC7A-6FBB6474969B}"/>
+						<Switch Id="2795865631" Name="ExtraDiegetic" ObjectPath="\Switches\Default Work Unit\GameMusic_Type\ExtraDiegetic" GUID="{38284A8B-7F1F-4F33-8CFE-DC64BB0CE7FA}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{56BD7C50-D40F-B3A8-87C9-949460FD9DA7}">
+		<SoundBank Id="1551306167" Type="User" GUID="{01BCEF31-CD88-4480-9C5B-155CC8430A37}" Language="SFX" Hash="{56BD7C50-D40F-B3A8-87C9-949460FD9DA7}">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -89,14 +92,15 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3563481019" Name="UI_SFX">
+				<Event Id="3563481019" Name="UI_SFX" ObjectPath="\Events\Default Work Unit\UI\UI_SFX" GUID="{FDB49668-7B2C-4B95-B550-1A7F39E49D04}" DurationType="OneShot" DurationMin="2.89" DurationMax="2.89">
 					<MediaRefs>
 						<MediaRef Id="621161757"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{2E6489F5-9801-899F-83AC-17DBA148E906}">
+		<SoundBank Id="3991942870" Type="User" GUID="{481A80E8-1C2C-42D5-A973-EAFDF826D894}" Language="SFX" Hash="{2E6489F5-9801-899F-83AC-17DBA148E906}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -117,13 +121,13 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="202194903" Name="Music_PLAY">
+				<Event Id="202194903" Name="Music_PLAY" ObjectPath="\Events\Default Work Unit\MUS\Music_PLAY" GUID="{DEBA4E61-417E-4D6D-9C42-E444D80417AB}" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="392736999" Id="2607556080"/>
+							<SwitchValue GroupType="Switch" GroupId="392736999" Id="2607556080" GUID="{E23CD848-D345-497C-A6B1-FD8C866C6970}"/>
 							<Children>
 								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="2731022483" Id="0"/>
+									<SwitchValue GroupType="Switch" GroupId="2731022483" Id="0" GUID="{817295B2-EC1B-4D00-908D-D480DBF0C750}"/>
 									<MediaRefs>
 										<MediaRef Id="919691640"/>
 									</MediaRefs>
@@ -131,14 +135,14 @@
 							</Children>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391"/>
+							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391" GUID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
 							<Children/>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391"/>
+							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391" GUID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
 							<Children>
 								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="2731022483" Id="1316532907"/>
+									<SwitchValue GroupType="Switch" GroupId="2731022483" Id="1316532907" GUID="{419AB2E2-FF70-47CC-AC7A-6FBB6474969B}"/>
 									<MediaRefs>
 										<MediaRef Id="283136828"/>
 									</MediaRefs>
@@ -146,10 +150,10 @@
 							</Children>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391"/>
+							<SwitchValue GroupType="Switch" GroupId="392736999" Id="702482391" GUID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
 							<Children>
 								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="2731022483" Id="2795865631"/>
+									<SwitchValue GroupType="Switch" GroupId="2731022483" Id="2795865631" GUID="{38284A8B-7F1F-4F33-8CFE-DC64BB0CE7FA}"/>
 									<MediaRefs>
 										<MediaRef Id="1048233773"/>
 									</MediaRefs>
@@ -160,20 +164,20 @@
 				</Event>
 			</Events>
 			<SwitchGroups>
-				<SwitchGroup Id="392736999" Name="GameFlow">
+				<SwitchGroup Id="392736999" Name="GameFlow" ObjectPath="\Switches\Default Work Unit\GameFlow" GUID="{FC793DD3-F0C0-477D-BAE0-7601FA7D6C70}">
 					<Switches>
-						<Switch Id="702482391" Name="Game"/>
-						<Switch Id="2607556080" Name="Menu"/>
+						<Switch Id="702482391" Name="Game" ObjectPath="\Switches\Default Work Unit\GameFlow\Game" GUID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
+						<Switch Id="2607556080" Name="Menu" ObjectPath="\Switches\Default Work Unit\GameFlow\Menu" GUID="{E23CD848-D345-497C-A6B1-FD8C866C6970}"/>
 					</Switches>
 				</SwitchGroup>
-				<SwitchGroup Id="2731022483" Name="GameMusic_Type">
+				<SwitchGroup Id="2731022483" Name="GameMusic_Type" ObjectPath="\Switches\Default Work Unit\GameMusic_Type" GUID="{817295B2-EC1B-4D00-908D-D480DBF0C750}">
 					<Switches>
-						<Switch Id="1316532907" Name="Diegetic"/>
-						<Switch Id="2795865631" Name="ExtraDiegetic"/>
+						<Switch Id="1316532907" Name="Diegetic" ObjectPath="\Switches\Default Work Unit\GameMusic_Type\Diegetic" GUID="{419AB2E2-FF70-47CC-AC7A-6FBB6474969B}"/>
+						<Switch Id="2795865631" Name="ExtraDiegetic" ObjectPath="\Switches\Default Work Unit\GameMusic_Type\ExtraDiegetic" GUID="{38284A8B-7F1F-4F33-8CFE-DC64BB0CE7FA}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B0B5135D-5558-AC55-A921-B4016639A352}</FileHash>
+	<FileHash>{80641095-426D-A57A-74FF-853E5B3F5237}</FileHash>
 </SoundBanksInfo>
