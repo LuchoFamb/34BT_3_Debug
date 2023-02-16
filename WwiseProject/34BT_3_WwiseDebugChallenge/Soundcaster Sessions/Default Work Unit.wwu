@@ -72,7 +72,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Game" ID="{4B71E25D-C56E-4636-B4AF-64AC1855F83B}"/>
+						<CurrentSwitchRef Name="Menu" ID="{E23CD848-D345-497C-A6B1-FD8C866C6970}"/>
 						<CurrentSwitchRef Name="Diegetic" ID="{419AB2E2-FF70-47CC-AC7A-6FBB6474969B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

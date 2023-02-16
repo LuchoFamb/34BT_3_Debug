@@ -12,15 +12,9 @@
 					<ChildrenList>
 						<Bus Name="Ambience" ID="{1CB30A42-533E-47F4-8B54-27998E19D265}">
 							<PropertyList>
-								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>1</Value>
-									</ValueList>
-								</Property>
-								<Property Name="UseMaxSoundPerInstance" Type="bool">
-									<ValueList>
-										<Value>True</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
